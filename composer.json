@@ -1,0 +1,30 @@
+{
+    "name": "webfrap/doc",
+    "description": "Documentation for the WebFrap platform",
+    "keywords": ["Webfrap","docu"],
+    "homepage": "http://webfrap.net",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dominik Bonsch",
+            "email": "dominik.bonsch@webfrap.net",
+            "homepage": "http://dbonsch.de"
+        }
+    ],
+    "support": {
+        "email": "support@webfrap.net",
+        "irc": "irc://irc.freenode.org/webfrap"
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dbonsch/WebFrap_Doc.git"
+        },{
+            "type": "vcs",
+            "url": "https://hg.webfrap-servers.de/core/WebFrap_Doc"
+        }
+    ],
+    "target-dir": "WebFrap_Doc"
+}
+

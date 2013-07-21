@@ -1,0 +1,16 @@
+/* TEAM */
+  Chef:Dominik Bonsch
+  Contact: dominik.bonsch webfrap net
+  Twitter: @dbonsch
+  From:Karlsruhe, Germany
+
+/* THANKS */
+
+  Server Admin: Malte Schirmacher
+  From: Somewhere, Germany
+
+
+/* SITE */
+  Language: Germany
+  Doctype:HTML5
+  IDE: Eclipse, Ksnapshoot, Gimp
