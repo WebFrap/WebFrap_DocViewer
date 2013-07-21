@@ -54,10 +54,10 @@ Conf::$modules = array_merge(Conf::$modules,array(
   'WebFrap_Genf_Doc:bdl',
   'WebFrap_Genf_Doc:genf',
   'WebFrap_Genf_Wbf:genf_wbf',
-  'WebFrap_Vendor_Doc:vendor_lib',
+  'WebFrap_Vendor:vendor_lib',
   'WebFrap_Doc:admin_guide',
   'WebFrap_Doc:dev_guide',
-  'WebFrap_Tools_Doc:tools',
+  'WebFrap_Tools:tools',
   'WebFrap_Doc:user_guide',
 ));
 
