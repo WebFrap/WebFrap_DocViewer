@@ -50,10 +50,11 @@ if ('127.0.0.1' == $_SERVER ['SERVER_NAME'] ){
 Conf::$modules = array_merge(Conf::$modules,array(
   'WebFrap_Doc:webfrap',
   'WebFrap_Wgt_Doc:wgt',
+  'WebFrap_Wgt_Doc:ui',
   'WebFrap_Doc:gateway',
   'WebFrap_Genf_Doc:bdl',
   'WebFrap_Genf_Doc:genf',
-  'WebFrap_Genf_Wbf:genf_wbf',
+  'WebFrap_Genf_Wbf_Doc:genf_wbf',
   'WebFrap_Vendor:vendor_lib',
   'WebFrap_Doc:admin_guide',
   'WebFrap_Doc:dev_guide',
