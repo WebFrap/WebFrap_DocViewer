@@ -38,7 +38,7 @@ class Conf
   public static $modules = array();
 
 }
-
+/*
 if ('127.0.0.1' == $_SERVER ['SERVER_NAME'] ){
   Conf::$modules = array(
     'Buiznodes_42:org',
@@ -46,11 +46,13 @@ if ('127.0.0.1' == $_SERVER ['SERVER_NAME'] ){
     'Buiznodes_42:architecture'
   );
 }
+*/
 
 Conf::$modules = array_merge(Conf::$modules,array(
   'WebFrap_Doc:webfrap',
   'WebFrap_Wgt_Doc:wgt',
   'WebFrap_Wgt_Doc:ui',
+  'WebFrap_Doc:wbf_arch',
   'WebFrap_Doc:gateway',
   'WebFrap_Genf_Doc:bdl',
   'WebFrap_Genf_Doc:genf',
