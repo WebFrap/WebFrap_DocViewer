@@ -34,6 +34,7 @@ if (isset($_GET ['page'])) {
 if (file_exists($page)) {
 
   start_md();
+  echo "<a href=\"editor.php?page=".$_GET['page']."\" class=\"clink\" >Seite Editieren</a><br />\n";
   include $page;
   echo render_md();
 
@@ -60,6 +61,7 @@ HTML
 );
 
   start_md();
+  echo "<a href=\"editor.php?page=".$_GET['page']."\" class=\"clink\" >Seite Editieren</a><br />\n";
   include $page;
   render_md();
 
